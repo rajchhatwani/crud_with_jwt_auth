@@ -93,7 +93,7 @@ All endpoints are prefixed with `/api` and require a Bearer JWT token in the `Au
 
    ```bash
    git clone <repo-url>
-   cd Code_for_tomorrow_indore
+   cd crud_with_jwt_auth
    ```
 
 2. **Install dependencies:**
@@ -124,7 +124,7 @@ NODE_ENV=development
 PORT=5000
 
 DB_HOST=localhost
-DB_PORT=3306
+DB_PORT=db_port
 DB_NAME=your_db_name
 DB_USER=your_db_user
 DB_PASSWORD=your_db_password
@@ -164,6 +164,6 @@ ISC
 
 **Note:**
 
-- Only the hardcoded admin (`admin@codesfortomorrow.com` / `Admin123!@#`) can log in and access the API.
+- Only the hardcoded admin (`email(you know)` / `Password(you know)`) can log in and access the API.
 - All endpoints except `/login` require a valid JWT in the `Authorization` header:  
   `Authorization: Bearer <token>`
