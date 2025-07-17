@@ -32,7 +32,7 @@ All endpoints are prefixed with `/api` and require a Bearer JWT token in the `Au
 ### Auth
 
 - **POST** `/api/login`
-  - **Body:** `{ "email": "admin@codesfortomorrow.com", "password": "Admin123!@#" }`
+  - **Body:** `{ "email": "ADMIN_MAIL", "password": "YOUR_PASSWORD" }`
   - **Response:** `{ "token": "<JWT>" }`
   - _Only the hardcoded admin can log in._
 
